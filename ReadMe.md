@@ -1,4 +1,4 @@
-# TSFSM
+# FEST
 The architecture works on three dataset,
 MHEALTH, UCIHAR and KUHAR having their respective folders
 
