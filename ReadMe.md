@@ -10,7 +10,7 @@ mhealth-img112-env2b1: feature extraction using EfficientNet
 mhealth-img112-ex: feature extraction using Xception
 mhealth-merged: merge features and selection using chi-square
 h-b-feat-select-mhealth: feature selection using BHBA 
-feature-importance-mhealth: finding feature importance
+
 
 KUHAR:-
 ku-har-preprocessing:image generation using GAF
@@ -21,7 +21,6 @@ kuhar-img84-ex: feature extraction using Xception
 kuhar-merge-ex-feat: merge features 
 feat-ex-kuhar-1500: selection features using chi-square
 h-b-feat-select-kuhar: feature selection using BHBA 
-feature-importance-kuhar: finding feature importance
 
 UCIHAR:-
 inertial-signal_img90_traingenerate :training image generation using GAF
@@ -33,4 +32,4 @@ transferlearn-ex-img90: feature extraction using Xception
 img90-merging-features: merge features 
 uchi-chi-featselect: selection features using chi-square
 h-b-feat-select-ucihar: feature selection using BHBA 
-feature-importance-ucihar: finding feature importance
+
