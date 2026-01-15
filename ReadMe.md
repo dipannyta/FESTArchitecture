@@ -1,28 +1,7 @@
-# FEST
-The architecture works on three dataset,
-MHEALTH, UCIHAR and KUHAR having their respective folders
+# FEST 
+The code is provided as follows.
 
-MHEATLH:-
-mhealth-resampled-preprocess : image generation using GAF
-mhealth_classified_dataset: split images into train-test
-mhealth-img112-irnv2: feature extraction using Inception ResNet
-mhealth-img112-env2b1: feature extraction using EfficientNet
-mhealth-img112-ex: feature extraction using Xception
-mhealth-merged: merge features and selection using chi-square
-h-b-feat-select-mhealth: feature selection using BHBA 
-
-
-KUHAR:-
-ku-har-preprocessing:image generation using GAF
-Kuhar_classified_dataset: split images into train-test
-kuhar-img84-irnv2: feature extraction using Inception ResNet
-kuhar-img84-env2b1: feature extraction using EfficientNet
-kuhar-img84-ex: feature extraction using Xception
-kuhar-merge-ex-feat: merge features 
-feat-ex-kuhar-1500: selection features using chi-square
-h-b-feat-select-kuhar: feature selection using BHBA 
-
-UCIHAR:-
+Dataset UCIHAR:-
 inertial-signal_img90_traingenerate :training image generation using GAF
 inertial-signal_img90_testgenerate :testing image generation using GAF
 classified-ucihar-dataset-create: split images into train-test
